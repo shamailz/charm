@@ -1,0 +1,85 @@
+html{
+	background-color: rgb(230, 233, 255);
+}
+
+/*#container{
+	width: 80%;
+	height: auto;
+	margin-left: 10%;
+}
+
+.boxes{
+	width: calc(100%/3);
+	height: 20vw;
+	background-color: aquamarine;
+	float: left;
+}
+
+#box1{
+	background-color: chocolate;
+}
+
+#box2{
+	background-color: green;
+}
+
+#box3{
+	background-color: rebeccapurple;
+}*/
+
+#welcome{
+
+	color: rgb(57, 58, 64);
+	font-family: 'Rubik', sans-serif;
+	font-weight: 400;
+	font-size: 18vw;
+	text-align: center;
+	text-decoration: underline dotted .5vw rgb(172, 175, 191);
+
+}
+
+
+.homework{
+
+	background-color:rgb(86, 87, 96);
+	font-family: 'Rubik', sans-serif;
+	font-weight: 300;
+	font-size: 2.5vw;
+	color: rgb(230, 233, 255);
+	height: 30vh;
+	width: calc(90%/4);
+	text-align: center;
+	float: left;
+	margin-right: 30px;
+	margin-bottom: 30px;
+	opacity: .5;
+	border-radius: 25px;
+}
+
+.homework:hover{
+	opacity:1;
+	transition: .25s ease-in;
+}
+#weektwo{
+	margin-left: 30px;
+}
+
+#weeksix{
+	margin-left: 30px;
+}
+
+#weekten{
+	margin-left: 30px;
+}
+
+/* #weekfourteen{
+	margin-left: 26vw;
+} */
+a:-webkit-any-link , a:visited{
+    color: rgb(230, 233, 255);
+    cursor: pointer;
+    text-decoration: none;
+}
+a:hover{
+	text-decoration: dotted , rgb(230, 233, 255);
+}
